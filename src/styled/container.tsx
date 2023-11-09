@@ -2,6 +2,14 @@ import styled from "styled-components";
 import { motion } from "framer-motion"
 
 
+export const Sunlogo = styled(motion.img)`
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+`
+
 
 export const Container = styled(motion.div)`
 height: 100px;
